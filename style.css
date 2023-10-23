@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    height: 13vh;
+    width: 100vw;
+    background-color:  #252525;
+    
+}
+h3 {
+    color: white;
+}
+.logoheader { 
+    margin-right: 1px;
+    padding-left: 90px;
+}
+
+.icons {
+    display: flex;
+    width: 75vw;
+    justify-content: right;
+    gap: 1rem;
+}
+
+.dogrosa{
+    width:100vw;
+    background-image: url(imagens/background_dog.png);
+    height:150vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+   
+}
+#títuloboasvindas {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    letter-spacing: 1px;
+    font-size: 5rem;
+    justify-content: center;
+    padding-top: 8rem;
+   
+
+}
+.logopata {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    opacity: 1;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    
+ 
+  
+ 
+    
+}
+
+
+
+
+
+
+
+@media (max-width:200px) {
+    header{ }
+    
+}
