@@ -67,6 +67,7 @@ h3 {
     
   
 }
+/* ESTILIZAÇÃO CACHORRO MARROM */
 .dogmarrom {
   background-image: url(imagens/dogmarrom.png);
   width: 100vw;
@@ -79,36 +80,52 @@ h3 {
 .box2dog_marrom {
   display: flex;
   border: solid red;
-  height: 300px;
-  width: 50vw;
   flex-direction: column;
   padding-left: 5em;
-  font-family: 'Roboto Serif', serif;
   font-size: 27px;
   color: #3A342F;
+  width: 50%;
+  height: 50%;
+  padding-top: 40px;
+  margin: 1rem;
   
-  
+ 
 }
-
-
-.box2dog_marrom h2 {
-  font-family: 'Roboto Serif', serif;
-  font-size: 49px;
+.dogmarrom h2 {
+  margin-bottom:7rem;
+  width: 40vw;
+  font-size: 4rem;
   color: #3A342F;
-  opacity: 1;
-  display: flex;
-  text-align: left;
-  padding-top: 30px;
- 
+  font-family: 'Roboto Serif', serif;
+  border: solid green;
+  
+
   
 }
-.introdog_marrom {
- display: flex;
 
+.dogmarrom p {
+  margin-bottom:1.5rem;
+  width: 25vw;
+  font-size: 1em;
+  color: #3A342F;
+  font-size: 25px;
  
+ 
+  
+
+
+
 
 }
-
+/* ESTILIZAÇÃO CACHORRO PRETO */
+.dogpreto {
+  background-image:url(imagens/dogpretoebranco.png);
+  width: 100vw;
+  height:150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
 
 
