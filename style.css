@@ -91,26 +91,157 @@ h3 {
   font-family: 'Roboto Serif', serif;
   border: solid green;
   padding-top: 9rem;
+  margin-left: 30px;
   
 }
 
 .introdog_marrom{
   font-size: 2rem;
+  margin-left: 30px;
 }
-  
- 
+.botão_cinza{
+  background-color: #3A342F;
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+  color: #F4F2F3;
+  font-family: 'Roboto Serif', serif;
+  font-size: 15px ;
  
 
+
 }
+.divbotão_cinza{
+border: solid red;
+width: 50vw;
+height: 40vh ;
+display: flex;
+align-items: center;
+margin-left: 30px;
+}
+ 
+
+
+
+
+
 /* ESTILIZAÇÃO CACHORRO PRETO */
 .dogpreto {
-  background-image:url(imagens/dogpretoebranco.png);
+  background-image: url(imagens/dogpretoebranco.png);
   width: 100vw;
   height:150vh;
   background-repeat: no-repeat;
   background-size: cover;
   
 }
+.box3dog_dogpreto{
+  border: solid purple;
+  width: 100vw;
+  height: 100vh;
+}
+.pretoh2{
+  color: white;
+  border: solid black;
+  height: 50vh;
+  font-size: 3rem;
+  margin-left: 50rem;
+  font-family: 'Roboto Serif', serif;
+  padding-top: 9rem;
+ margin-right: 80px;
+
+}
+.introdog_dogpreto{
+  border: solid yellowgreen;
+  height: 50vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin-left: 40rem;
+}
+
+.divbotão_branco{
+  border: solid white;
+  height: 50vh;
+  margin-left: 40rem;
+  
+}
+
+.botão_branco{
+  background-color: white;
+  border-radius: 40px;
+  height: 50px;
+  width: 150px;
+  color: black;
+  font-family: 'Roboto Serif', serif;
+  font-size: 15px ;
+
+}
+
+
+
+.div_apoio{
+  border: solid black;
+  height: 15vh;
+  background-color: white;
+  color: #FD6A9A;
+  padding-top: 2rem;
+  
+ 
+  
+
+}
+
+.apoios{
+  display: flex;
+  justify-content:center;
+  gap: 15rem;
+  font-size: 25px;
+}
+
+.div_rodapé{
+  display: flex;
+  justify-content: center;
+  gap: 17rem;
+  height: 30vh;
+  padding-top: 3rem;
+ 
+}
+
+.rodapé{
+  background-color: #EB4A7B;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+.lista1 {
+border: solid black;
+text-align: justify;
+
+
+
+
+
+
+}
+
+.lista2{
+border: solid blue;
+text-align: justify;
+}
+
+.lista3{
+
+  border: solid green;
+  margin-right: 10rem;
+  text-align: justify;
+}
+
+
+
+
+
+
 
 
 
