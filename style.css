@@ -214,6 +214,12 @@ margin-left: 30px;
   font-size: 1rem;
 }
 
+.títulosrodapé{
+ display: flex;
+ justify-content: space-evenly;
+ padding-top: 20px;
+
+}
 .lista1 {
 border: solid black;
 text-align: justify;
