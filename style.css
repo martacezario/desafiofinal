@@ -103,10 +103,13 @@ h3 {
   color: #F4F2F3;
   font-family: 'Roboto Serif', serif;
   font-size: 15px ;
- 
-
-
 }
+
+.botão_cinza:hover{
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
 .divbotão_cinza{
   width: 50vw;
   height: 40vh ;
@@ -166,6 +169,11 @@ h3 {
   font-family: 'Roboto Serif', serif;
   font-size: 15px ;
 
+}
+
+.botão_branco:hover {
+  background-color: lightcoral;
+  cursor: pointer;
 }
 
 .div_apoio{
