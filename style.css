@@ -1,177 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    height: 13vh;
-    width: 100vw;
-    background-color:  #252525;
-    opacity: 1;
-    
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  height: 13vh;
+  width: 100vw;
+  background-color: #252525;
+  opacity: 1;
 }
 h3 {
-    color: white;
-    display: flex;
-    font-family: 'Roboto Serif', serif;
+  color: white;
+  display: flex;
+  font-family: "Roboto Serif", serif;
 }
-.logoheader { 
-    margin-right: 1px;
-    padding-left: 90px;
+.logoheader {
+  margin-right: 1px;
+  padding-left: 90px;
 }
 
 .icons {
-    display: flex;
-    width: 75vw;
-    justify-content: right;
-    gap: 1rem;
-    
+  display: flex;
+  width: 75vw;
+  justify-content: right;
+  gap: 1rem;
 }
 
-.box1dog_rosa{
-    width:100vw;
-    background-image: url(imagens/background_dog.png);
-    height:150vh;
-    background-repeat: no-repeat;
-    background-size: cover ;
- 
-    
-     
+.box1dog_rosa {
+  width: 100vw;
+  background-image: url(imagens/background_dog.png);
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .títuloboasvindas {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: 'Roboto Serif', serif;
-    letter-spacing: 1px;
-    font-size: 5rem;
-    padding-top: 8rem;
-    position:static;
-   
-
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto Serif", serif;
+  letter-spacing: 1px;
+  font-size: 5rem;
+  padding-top: 8rem;
+  position: static;
 }
 .logopata {
-    display: flex;
-    width:100%;
-    justify-content: center;
-    opacity: 1;
-    padding-top: 1rem;
-    padding-left: 3rem;
-    
-  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  opacity: 1;
+  padding-top: 1rem;
+  padding-left: 3rem;
 }
 /* ESTILIZAÇÃO CACHORRO MARROM */
 .dogmarrom {
   background-image: url(imagens/dogmarrom.png);
   width: 100vw;
-  height:150vh;
+  height: 150vh;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .box2dog_marrom {
   width: 50vw;
-  
 }
 .dogmarrom h2 {
-  margin-bottom:3rem;
+  margin-bottom: 3rem;
   width: 40vw;
   font-size: 3rem;
-  color: #3A342F;
-  font-family: 'Roboto Serif', serif;
+  color: #3a342f;
+  font-family: "Roboto Serif", serif;
   padding-top: 9rem;
   margin-left: 30px;
- 
-  
 }
 
-.introdog_marrom{
+.introdog_marrom {
   font-size: 2rem;
   margin-left: 30px;
 }
-.botão_cinza{
-  background-color: #3A342F;
+.botão_cinza {
+  background-color: #3a342f;
   border-radius: 40px;
   height: 50px;
   width: 150px;
-  color: #F4F2F3;
-  font-family: 'Roboto Serif', serif;
-  font-size: 15px ;
+  color: #f4f2f3;
+  font-family: "Roboto Serif", serif;
+  font-size: 15px;
 }
 
-.botão_cinza:hover{
+.botão_cinza:hover {
   background-color: lightcoral;
   cursor: pointer;
 }
 
-.divbotão_cinza{
+.divbotão_cinza {
   width: 50vw;
-  height: 40vh ;
+  height: 40vh;
   display: flex;
   align-items: center;
   margin-left: 30px;
-
 }
- 
+
 /* ESTILIZAÇÃO CACHORRO PRETO */
 .dogpreto {
   background-image: url(imagens/dogpretoebranco.png);
   width: 100vw;
-  height:150vh;
+  height: 150vh;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
-.box3dog_dogpreto{
+.box3dog_dogpreto {
   width: 100vw;
   height: 100vh;
- 
 }
-.pretoh2{
+.pretoh2 {
   color: white;
   height: 50vh;
   font-size: 3rem;
   margin-left: 50rem;
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
   padding-top: 9rem;
   margin-right: 80px;
-  
-
 }
-.introdog_dogpreto{
+.introdog_dogpreto {
   height: 50vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 2rem;
   color: white;
   margin-left: 40rem;
- 
 }
 
-.divbotão_branco{
+.divbotão_branco {
   height: 50vh;
   margin-left: 40rem;
- 
 }
 
-.botão_branco{
+.botão_branco {
   background-color: white;
   border-radius: 40px;
   height: 50px;
   width: 150px;
   color: black;
-  font-family: 'Roboto Serif', serif;
-  font-size: 15px ;
-
+  font-family: "Roboto Serif", serif;
+  font-size: 15px;
 }
 
 .botão_branco:hover {
@@ -179,282 +157,226 @@ h3 {
   cursor: pointer;
 }
 
-
-.div_apoio{
-
+.div_apoio {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   gap: 25px;
-  color: #FD6A9A;
-  font-family: 'Roboto', sans-serif;
+  color: #fd6a9a;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  height:100px;
+  height: 100px;
   padding-top: 30px;
-      
 }
-.logorodapé{
+.logorodapé {
   display: none;
- 
 }
 
-.redesSociais_rodapé{
+.redesSociais_rodapé {
   display: none;
 }
-.div_rodapé{
+.div_rodapé {
   display: flex;
   justify-content: center;
   gap: 17rem;
   height: 30vh;
   padding-top: 3rem;
- 
 }
 
-.rodapé{
-  background-color: #EB4A7B;
+.rodapé {
+  background-color: #eb4a7b;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
-  
 }
 
-.títulosrodapé{
- display: flex;
- justify-content:space-around;
- padding-top: 3rem;
- margin-right: 8rem;
-
+.títulosrodapé {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+  margin-right: 8rem;
 }
 .lista1 {
   text-align: justify;
   justify-content: center;
-
 }
 
-.lista2{
+.lista2 {
   text-align: justify;
   margin-top: 10px;
-
 }
 
-.lista3{
+.lista3 {
   margin-right: 15em;
   text-align: justify;
   margin-top: 10px;
-  
- 
 }
 
 /* MEDIA PARA CELULAR CACHORRO FUNDO ROSA*/
 
 @media (min-width: 249px) and (max-width: 501px) {
-    header{ 
-        width: 100vw;
-        height: 10vh;
-        display: flex;
-        gap: 12px;
-        position: relative;
-    }
+  header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    gap: 12px;
+    position: relative;
+  }
 
-    .iconeIG{
-      display: none;
-    }
-    .iconeYT{
-      display: none;
-    }
-    header img {
-        width: 45%;
-    }
+  .iconeIG {
+    display: none;
+  }
+  .iconeYT {
+    display: none;
+  }
+  header img {
+    width: 45%;
+  }
 
-    
-    h3 {
-        font-size: 13px;
-        width: 100%;
-        height: 55vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        
-    
-    }
-   
-    nav {
-        width: 100%;
-        height: 55vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      
+  h3 {
+    font-size: 13px;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-    }
-    .box1dog_rosa{
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
-        background-image: none;
+  nav {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .box1dog_rosa {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: none;
+  }
+  .box1dog_rosa {
+    background-image: url(imagens/dogrosa_mobile.png);
+  }
+  .títuloboasvindas {
+    height: 50vh;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5rem;
+  }
 
-    }
-    .box1dog_rosa{
-      background-image: url(imagens/dogrosa_mobile.png);
-    }
-    .títuloboasvindas {
-      
-      height: 50vh ;
-      padding-top: 5rem;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      font-family: 'Roboto Serif', serif;
-      font-size: 1.5rem;
+  .logopata {
+    margin-top: -20px;
+    margin-left: -30px;
+  }
 
-    }
+  /* MEDIA PARA CELULAR CACHORRO MARROM LEAO*/
+  .dogmarrom {
+    background-image: url(imagens/dogmarrom_mobile\\(1\).png);
+  }
 
-    .logopata {
-        margin-top: -20px;
-        margin-left: -30px;
-             
-    }
-    
-    /* MEDIA PARA CELULAR CACHORRO MARROM LEAO*/
-    .dogmarrom{
-      background-image: url(imagens/dogmarrom_mobile\ \(1\).png);
-    }
-  
-    .box2dog_marrom{
-      width: 80vw;
-      padding-right: 10rem ;
-      margin-right: 150px;
-    }
+  .box2dog_marrom {
+    width: 80vw;
+    padding-right: 10rem;
+    margin-right: 150px;
+  }
 
-    .divbotão_cinza {
-      height: fit-content;
-    }
+  .divbotão_cinza {
+    height: fit-content;
+  }
 
-    .dogmarrom h2{
-      font-size: 20px;
-      width: 60vw;
-      margin-bottom: 20px;
-      padding-top: 20px;
-      
-    }
-    .introdog_marrom{
-      font-size: 0.8rem;
-      width: 100%;
-      font-family: 'Roboto Serif', serif; 
-      margin-bottom: 150px;
-      
-      
-    }
-    
-  /* MEDIA PARA CELULAR CACHORRO PRETO*/   
+  .dogmarrom h2 {
+    font-size: 20px;
+    width: 60vw;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .introdog_marrom {
+    font-size: 0.8rem;
+    width: 100%;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 150px;
+  }
 
-    .dogpreto{
-      background-size:cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-image: none;
-     
-        
-    }
-    .dogpreto{
-      background-image: url(imagens/dogpreto_mobile.png);
+  /* MEDIA PARA CELULAR CACHORRO PRETO*/
 
-    }
-    .box3dog_dogpreto{
-      width: -70vw;
-      padding-right: 10rem;
-      margin-left: 10px;
-     
-      
-    }
+  .dogpreto {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: none;
+  }
+  .dogpreto {
+    background-image: url(imagens/dogpreto_mobile.png);
+  }
+  .box3dog_dogpreto {
+    width: -70vw;
+    padding-right: 10rem;
+    margin-left: 10px;
+  }
 
-    .introdog_dogpreto{
-      width: 100%;
-      font-family: 'Roboto Serif', serif; 
-      margin-left: 1rem;
-      font-size: 0.8rem;
-      line-height: 1.2rem;
-    }
+  .introdog_dogpreto {
+    width: 100%;
+    font-family: "Roboto Serif", serif;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
 
-    .pretoh2{
-     transform: translateX(-760px);
-     width: 100%;
-     font-size: 2rem;
-     padding-right: 200px;
-    }
+  .pretoh2 {
+    transform: translateX(-760px);
+    width: 100%;
+    font-size: 2rem;
+    padding-right: 200px;
+  }
 
-    .divbotão_branco{
-      margin-left: 260px;
-      
-    }
-   
-      /* MEDIA PARA DIV RODAPÉ APOIO*/
+  .divbotão_branco {
+    margin-left: 260px;
+  }
 
-    .div_apoio {
-        height: 60px;
-        display: flex;
-        flex-wrap: wrap;
-      
-    }
-    .logorodapé{
-      display: initial;
-      display: flex;
-      justify-content: center;
-      padding-top: 30px;
-      gap: 10px;
-      margin-right: 70px;
-      height: 90px;
-      margin-bottom: 15px;
-      
-    
-    }
-    h4{
-      font-family: 'Roboto Serif', serif;
-      padding-top: 20px;
-      font-size: 1.5rem;
-    }
-   
-    .redesSociais_rodapé{
-      display: initial;
-      margin: 170px;
-      padding-top: 20px;
-      padding-bottom: 50px;
-    }
+  /* MEDIA PARA DIV RODAPÉ APOIO*/
 
-    img {
-      margin: 3.5px;
-    }
+  .div_apoio {
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logorodapé {
+    display: initial;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+    margin-right: 70px;
+    height: 90px;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-family: "Roboto Serif", serif;
+    padding-top: 20px;
+    font-size: 1.5rem;
+  }
 
-    .div_rodapé{
+  .redesSociais_rodapé {
+    display: initial;
+    margin: 125px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  img {
+    margin: 3.5px;
+  }
+
+  .div_rodapé {
     display: block;
     height: 80vh;
     margin-left: 150px;
     width: 100vw;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 }
